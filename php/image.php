@@ -26,9 +26,11 @@
 		}
 		
 		$data = Qiniu_RSF_ListPrefix($client,$BUCKET,'',$marker,5);
-		foreach ($data[0] as $key => $value) {
-			array_push($result,array($value["key"],$value["putTime"]));
-		}
+		if($marker!=""){
+                   foreach ($data[0] as $key => $value) {
+                      array_push($result,array($value["key"],$value["putTime"]));
+                   }
+                }
 	}while($data[1]!="");
 	
 	$len = count($result);
