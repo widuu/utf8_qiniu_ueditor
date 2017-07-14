@@ -1,4 +1,4 @@
-# 已经停止更新这个版本，最新请查看(https://github.com/widuu/qiniu_ueditor_1.4.3)[https://github.com/widuu/qiniu_ueditor_1.4.3]
+# 已经停止更新这个版本，最新请查看[https://github.com/widuu/qiniu_ueditor_1.4.3](https://github.com/widuu/qiniu_ueditor_1.4.3)
 
 # Ueditor结合七牛云存储上传图片、附件和图片在线管理的实现
 
