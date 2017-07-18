@@ -1,7 +1,7 @@
 # 已经停止更新这个版本，最新请查看[https://github.com/widuu/qiniu_ueditor_1.4.3](https://github.com/widuu/qiniu_ueditor_1.4.3)
 
 # Ueditor结合七牛云存储上传图片、附件和图片在线管理的实现
-
+#使用时提示后台配置错误，上传插件无法使用
 #### 1.0版本修复bug
 
  - 提供多文件上传，解决了以前不能多文件上传问题，最大上传图片32张，最大上传附件10，如果感觉时间不足可修改getToken.php中的时间，现在是3600s
